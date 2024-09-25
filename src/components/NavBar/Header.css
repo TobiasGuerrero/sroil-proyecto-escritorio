@@ -1,0 +1,19 @@
+header {
+    background-color: #151A2E;
+    padding: 2rem;
+}
+
+.header-ul{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.header-li{
+    display: flex;
+    align-items: center;
+}
+
+.header-li-a{
+    font-size: 1.5rem
+}

@@ -1,0 +1,56 @@
+.budget-main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #151A2E;
+    gap: 1rem;
+}
+
+.budget-add-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.budget-input{
+    width: 90%;
+    color: black;
+    outline: none;
+    padding: 1rem;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.budget-button{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4D2EBD;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.budget-button:hover{
+    background-color: #E03D4A;
+}
+
+.budget-items-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr .5fr;
+    gap: 1rem;
+}
+
+.budget-ob{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}

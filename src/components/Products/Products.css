@@ -1,0 +1,128 @@
+.product-main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #151A2E;
+    gap: 1rem;
+  }
+  
+  .product-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr .5fr; 
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .product-search-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-content: space-between;
+  }
+  
+  .product-search-input {
+    grid-column: 2;
+    justify-self: center;
+    width: 40%;
+    height: 2rem;
+    color: black;
+    outline: none;
+    padding: 1rem;
+    border: 4px solid black;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .product-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .product-actions-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4D2EBD;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .product-actions-button:hover {
+    background-color: #E03D4A;
+  }
+  
+  .addproduct-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr .5fr; 
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .product-input-addproduct{
+    width: 90%;
+    color: #787473;
+    outline: none;
+    padding: 1rem;
+    border: 4px solid black;
+    border-radius: 10px;
+  }
+  
+  .product-select-option{
+    color: #787473;
+  }
+
+  .modal,
+  .modal-background{
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(25, 25, 25, .5); 
+    z-index: 1;
+  }
+
+  .modal-container{
+    z-index: 2;
+    position: fixed;
+    background-color: #151A2E;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 3rem;
+    border: .3rem solid black;
+    gap: 1rem;
+    width: 80%;
+  }
+
+  .modal-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+
+  .modal-form-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr; 
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+.product-h2{
+  cursor: pointer;
+  background-color: #4D2EBD;
+  padding: .5rem;
+  border-radius: 5px;
+}
