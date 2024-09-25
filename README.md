@@ -115,5 +115,5 @@ Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archiv
 ## **Contacto**
 
 - Desarrollador: [TobiasGuerrero](https://github.com/TobiasGuerrero)
-- Email: [tobiasguerrerdevo@gmail.com]
+- Email: [tobiasguerrerdev@gmail.com]
 - LinkedIn: [https://www.linkedin.com/in/tobias-guerrero-dev/](https://www.linkedin.com/in/tobias-guerrero-dev/)
